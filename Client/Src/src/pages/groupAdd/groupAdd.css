@@ -1,0 +1,82 @@
+.groupAdd {
+  height: calc(100vh - 70px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.groupAddForm {
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #f2f2f2;
+  border-radius: 15px;
+  width: 400px;
+}
+
+.groupIconWrapper {
+  text-align: center;
+  padding: 15px;
+}
+
+.groupIcon {
+  border-radius: 50%;
+  height: 150px;
+  width: 150px;
+  object-fit: cover;
+}
+
+
+.addInput {
+  padding: 10px;
+}
+
+.addInput label {
+  margin-right: 5px;
+  font-size: 14px;
+  font-weight: 500;
+  text-transform: capitalize;
+}
+
+.addInput input {
+  outline: none;
+  border: none;
+  font-size: 14px;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 10px;
+}
+
+.groupMembers {
+  margin-top: 20px;
+}
+
+.groupMembers span {
+  font-size: 18px;
+  font-weight: 500;
+  padding: 10px;
+}
+
+.boxes {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.addSubmit {
+  border: none;
+  outline: none;
+  cursor: pointer;
+  color: #fff;
+  font-size: 15px;
+  font-weight: 500;
+  background-color: #bf9663;
+  padding: 10px;
+  margin: 20px;
+  transition: all 250ms ease-in-out;
+  border-radius: 10px;
+}
+
+.addSubmit:hover {
+  background-color: #997447;
+}

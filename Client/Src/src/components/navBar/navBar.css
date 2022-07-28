@@ -1,0 +1,144 @@
+.navBarContainer {
+  height: 50px;
+  width: 100%;
+  background-color: #7e8bd9;
+  display: flex;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+}
+
+.navBarLeft {
+  flex: 3;
+}
+
+.logo {
+  font-size: 24px;
+  margin-left: 20px;
+  font-weight: bold;
+  color: #f2f2f2;
+  cursor: pointer;
+}
+
+.navBarCenter {
+  flex: 5;
+}
+
+.searchBar {
+  width: 100%;
+  height: 30px;
+  background-color: #f2f2f2;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.searchResults {
+  position: absolute;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  top: 31px;
+  z-index: 99;
+  background-color: #f2f2f2;
+  border-radius: 10px;
+}
+
+.result {
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #6371bf;
+}
+
+.result:last-child {
+  border: none;
+}
+
+.resultImg {
+  height: 40px;
+  width: 40px;
+  object-fit: cover;
+  margin: 0 25px;
+}
+
+.resultName {
+  margin: 0 25px;
+  font-weight: 500;
+  font-size: 14px;
+  width: 300px;
+}
+
+.resultLink {
+  color: #6371bf;
+  text-decoration: none;
+  margin: 0 10px;
+  font-weight: 500;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.searchIcon {
+  font-size: 20px !important;
+  margin-left: 10px;
+}
+
+.searchInput {
+  border: none;
+  background-color: #f2f2f2;
+  width: 70%;
+}
+
+.searchInput:focus {
+  outline: none;
+}
+
+.navBarRight {
+  flex: 4;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  color: #f2f2f2;
+}
+
+.navBarLink {
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.navBarIcons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.navBarIconItem {
+  margin-right: 32px;
+  cursor: pointer;
+  position: relative;
+}
+
+.navBarIconBadge {
+  width: 15px;
+  height: 15px;
+  background-color: #bf9663;
+  border-radius: 50%;
+  color: #f2f2f2;
+  position: absolute;
+  top: -5px;
+  right: -5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+}
+
+.navBarImg {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  object-fit: cover;
+  cursor: pointer;
+}
